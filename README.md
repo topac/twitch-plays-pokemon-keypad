@@ -1,4 +1,4 @@
-This is chrome extension to pokemon at twitch.tv using your keyboard
+A chrome extension to play Pokemon at twitch.tv using your keyboard.
 
 http://www.twitch.tv/twitchplayspokemon
 
