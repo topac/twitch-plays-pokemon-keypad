@@ -9,7 +9,8 @@
 
   var inject = function(tabId){
     chrome.tabs.executeScript(tabId, {file: 'jquery.js'}, function(){
-      chrome.tabs.executeScript(tabId, {file: 'keypad.js'});
+      chrome.tabs.insertCSS(tabId, {file: 'gamepad.css'});
+      chrome.tabs.executeScript(tabId, {file: 'gamepad.js'});
     });
   };
 

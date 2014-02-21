@@ -1,0 +1,55 @@
+#gamepad {
+  clear: both;
+  display: block;
+  margin: 0 0 0.8em 0;
+}
+
+.gamepad-key {
+  background-color: #6a4e9e;
+  background: -webkit-gradient(linear,left top,left bottom,from(#8266b6),to(#533787));
+  border: 1px solid purple;
+  border-bottom: 1px solid #2a1453;
+  border-left: 1px solid #412771;
+  border-right: 1px solid #412771;
+  border-top: 1px solid #5b3f8f;
+  min-width: 3.4em;
+  padding: 0.1em;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.75);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(0,0,0,0.15);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.gamepad-key-disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.gamepad-key-active, .gamepad-key:active {
+  border: 1px solid #2a1453;
+  background-color: #462f75;
+  background: -webkit-gradient(linear,left top,left bottom,from(#553c87),to(#372364));
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.65);
+}
+
+.gamepad-key-toggle .gamepad-key-shortcut {
+  color: orange;
+}
+
+.gamepad-key-title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.gamepad-key-shortcut {
+  background-color: rgba(0, 0, 0, 0.498039);
+  color: white;
+  display: block;
+  font-size: 0.8em;
+  padding: 0.2em;
+  text-align: center;
+  overflow: hidden;
+}
